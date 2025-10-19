@@ -13,6 +13,8 @@ venv/
 # Datos grandes
 *.csv
 *.xlsx
+# Permitir Excel dentro del dataset/raw/
+!dataset/raw/*.xlsx
 *.zip
 
 # PyTorch
